@@ -1,0 +1,294 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userId": 1,
+      "name": "john",
+      "account": {
+        "email": "u1@gmail.com",
+        "password": "abc@123",
+        "activeCode": "ABCDEFXXX",
+        "isActive": false
+      },
+      "address": {
+        "street": "190 Nguyễn Tuân, Thanh Xuân",
+        "city": "Hà Nội",
+        "zipCode": 10000
+      }
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "name": "Thực Trần Danh",
+      "account": {
+        "email": "u2@gmail.com",
+        "password": "123",
+        "activeCode": "",
+        "isActive": true
+      },
+      "address": {
+        "street": "Đại Lai - Gia Bình",
+        "city": "Bình Thuận",
+        "zipCode": 10000
+      }
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "name": "demo123",
+      "account": {
+        "email": "thuctdhe171729@fpt.edu.vn",
+        "password": "123",
+        "activeCode": "",
+        "isActive": true
+      },
+      "address": {
+        "street": "Ngo Gia Tu Street, Tien An Ward 123",
+        "city": "Cao Bằng"
+      }
+    }
+  ],
+  "albums": [
+    {
+      "id": "1",
+      "albumId": 1,
+      "title": "Summer",
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "albumId": 2,
+      "title": "Spring",
+      "userId": 2
+    },
+    {
+      "albumId": 3,
+      "title": "Fall",
+      "userId": 2,
+      "id": "3"
+    },
+    {
+      "albumId": 4,
+      "title": "Su23",
+      "userId": 5,
+      "id": "4"
+    },
+    {
+      "albumId": 5,
+      "title": "Fall 24",
+      "userId": 3,
+      "id": "5"
+    }
+  ],
+  "photos": [
+    {
+      "id": "1",
+      "photoId": 1,
+      "title": "Photo 1",
+      "image": {
+        "url": [
+          "p1_1.png",
+          "p1_2.png",
+          "p1_3.png"
+        ],
+        "thumbnail": "p1.png"
+      },
+      "albumId": 1,
+      "tags": [
+        "summer",
+        "hot",
+        "new"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "2",
+      "photoId": 2,
+      "title": "Photo 2",
+      "image": {
+        "url": [
+          "p2.png",
+          "p2_1.png",
+          "p2_2.png",
+          "p2_3.png"
+        ],
+        "thumbnail": "p21.png"
+      },
+      "albumId": 1,
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "likes": 0
+    },
+    {
+      "id": "4",
+      "photoId": 4,
+      "title": "Photo 4",
+      "image": {
+        "url": [
+          "p4_1.png",
+          "p4_2.png"
+        ],
+        "thumbnail": "p4.png"
+      },
+      "albumId": 2,
+      "tags": [
+        "beutiful"
+      ],
+      "likes": 0
+    },
+    {
+      "photoId": 5,
+      "title": "Photo 5",
+      "image": {
+        "url": [
+          "p11.png",
+          "p21.png",
+          "p31.png"
+        ],
+        "thumbnail": "p51.png"
+      },
+      "albumId": 2,
+      "id": "5",
+      "tags": [
+        "col",
+        "hot"
+      ],
+      "likes": 0
+    },
+    {
+      "photoId": 6,
+      "title": "abc",
+      "albumId": 3,
+      "image": {
+        "url": "p51.png",
+        "thumbnail": "p51.png"
+      },
+      "tag": [
+        "summer",
+        "col"
+      ],
+      "id": "6"
+    },
+    {
+      "photoId": 7,
+      "title": "abdđ",
+      "albumId": 4,
+      "image": {
+        "url": [
+          "p4.png"
+        ],
+        "thumbnail": "p3.png"
+      },
+      "tags": [
+        "summer",
+        "beautiful"
+      ],
+      "likes": 0,
+      "id": "7"
+    },
+    {
+      "photoId": 8,
+      "title": "nature",
+      "albumId": 4,
+      "image": {
+        "url": [
+          "p13.png"
+        ],
+        "thumbnail": "p1_3.png"
+      },
+      "tags": [
+        "new",
+        "col"
+      ],
+      "likes": 0,
+      "id": "8"
+    },
+    {
+      "photoId": 9,
+      "title": "abc",
+      "albumId": null,
+      "image": {
+        "url": [
+          "p13.png"
+        ],
+        "thumbnail": "p1_2.png"
+      },
+      "tags": [
+        "hot",
+        "new"
+      ],
+      "likes": 0,
+      "id": "9"
+    },
+    {
+      "photoId": 10,
+      "title": "abcd",
+      "albumId": 5,
+      "image": {
+        "url": [
+          "p13.png"
+        ],
+        "thumbnail": "p13.png"
+      },
+      "tags": [
+        "hot",
+        "beautiful"
+      ],
+      "likes": 0,
+      "id": "10"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "photoId": 2,
+      "userId": 1,
+      "text": "Bình thường",
+      "rate": 2
+    },
+    {
+      "id": "5",
+      "photoId": 4,
+      "userId": 2,
+      "text": "Rất đẹp",
+      "rate": 4
+    },
+    {
+      "id": "6",
+      "photoId": 4,
+      "userId": 1,
+      "text": "Bình thường",
+      "rate": 2
+    },
+    {
+      "id": "8",
+      "photoId": 1,
+      "userId": 2,
+      "text": "Bình thường",
+      "rate": 4
+    },
+    {
+      "id": "7",
+      "userId": 2,
+      "photoId": 2,
+      "text": "Anh nay dep qua di",
+      "rate": 5
+    },
+    {
+      "userId": 3,
+      "photoId": 8,
+      "text": "123",
+      "rate": 5,
+      "id": "0Snf9yl"
+    }
+  ],
+  "favorites": [
+    {
+      "photoId": 1,
+      "userId": 3,
+      "id": "1"
+    }
+  ]
+}
